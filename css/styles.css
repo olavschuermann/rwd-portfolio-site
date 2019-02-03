@@ -1,0 +1,102 @@
+body {
+    font-family: Roboto;
+    max-width: 1200px;
+    margin: auto;
+ }
+
+.header__inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-image IMG {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.name-header {
+    text-align: right;
+}
+
+.name-header h1 {
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #2d3c49;
+    letter-spacing: 3px;
+    font-size: 48px;
+    font-weight: 200;
+}
+
+.name-header h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+hr.ruler {
+   border: 2px solid #7997ad; 
+}
+
+h3.featured-work {
+   color: #7997ad; 
+   font-size: 36px;
+   font-weight: 400;
+}
+
+.box IMG {
+    max-width: 386.67px;
+    height: auto;
+}
+
+.box.project1 {
+    padding-right: 20px;
+}
+
+.box.project2 {
+    margin-right: 20px;
+}
+
+.project {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;    
+}
+
+.project-link {
+    text-align: center;
+    font-size: 14px;       
+}
+
+@media screen and (max-width: 512px) {
+    .name-header h1, .name-header h2 {
+        line-height: 1.1em;
+        text-align: center;     
+    }
+
+    .header__inner {
+        justify-content: center;
+    }  
+    
+    hr.ruler {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
